@@ -31,7 +31,7 @@ This library implements a JAX-RS Client for accessing Apple's App Store Connect 
 		<version.jaxrs>1.0.2.Final</version.jaxrs>
 		<version.junit>5.6.2</version.junit>
 		<version.jwt>3.10.3</version.jwt>
-		<version.resteasy>4.5.3.Final</version.resteasy>
+		<version.resteasy>4.5.7.Final</version.resteasy>
 
 		<version.compiler-plugin>3.8.1</version.compiler-plugin>
 		<version.surefire-plugin>2.22.1</version.surefire-plugin>
