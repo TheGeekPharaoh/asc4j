@@ -5,7 +5,7 @@ Apple App Store Connect API Client for Java
 
 Apple's [App Store Connect API](https://developer.apple.com/app-store-connect/api/) provides a programmatic interface for many of the functions found in [App Store Connect](https://appstoreconnect.apple.com/).  Unfortunately, the documentation for this API is somewhat lacking, and no client libraries are provided for working with it in common languages.
 
-An [OpenAPI spec](https://github.com/TheGeekPharaoh/AppStoreConnectAPI-openapi) for the API helps with the first of these issues, while this library aims to help with the second when developing in Java.  The ASC4j library provides a [JAX-RS](https://github.com/jax-rs) client proxy for making calls against the App Store Connect API.  In addition, it includes utility classes for handling things such as token generation and exception mapping.
+An [OpenAPI spec](https://github.com/TheGeekPharaoh/AppStoreConnectAPI-openapi) for the API helps with the first of these issues, while this library aims to help with the second when developing in Java.  The ASC4j library provides a [JAX-RS](https://github.com/jax-rs) client proxy for making calls against the App Store Connect API.  In addition, it includes utility classes for handling things such as token generation and exception mapping.  All data types, and path endpoints are derived from Apple's official [OpenAPI spec](https://developer.apple.com/sample-code/app-store-connect/app-store-connect-openapi-specification.zip), with enhancements to the code documentation taken directly from Apple's [App Store Connect API Documentation](https://developer.apple.com/documentation/appstoreconnectapi).  The current version of the App Store Connect API is v1.8.
 
 ## The Code
 
@@ -110,10 +110,14 @@ If you find this library helpful and encounter any issues, or if you wish to con
 
 ## FAQs
 
-### Is this library available on Maven Central?
+#### *Is this library available on Maven Central?*
 
 Not yet.  I'm working on it, though.  Stay tuned!
 
-### Why are the property names and descriptions so generic?
+#### *Are all of the App Store Connect API methods documentation and implemented in this library?*
+
+No, not at the moment.  Currently, only the core functionality has been implemented, though there are plans to include the entirety of the API.
+
+#### *Why are the property names and descriptions so generic?*
 
 These values are obtained directly from the App Store Connect API documentation.  No effort was made to map those names to friendlier property names, or to infer better documentation for them.
