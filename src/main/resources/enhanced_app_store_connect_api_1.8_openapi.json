@@ -4700,7 +4700,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appInfoLocalizations-create_instance"
+                "operationId": "appInfoLocalizations-create_instance",
+                "summary": "Create an App Info Localization",
+                "description": "Add app-level localized information for a new locale."
             }
         },
         "/v1/appInfoLocalizations/{id}": {
@@ -4792,7 +4794,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appInfoLocalizations-get_instance"
+                "operationId": "readAppInfoLocalization",
+                "summary": "Read App Info Localization Information",
+                "description": "Read localized app-level information."
             },
             "delete": {
                 "tags": [
@@ -4843,7 +4847,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appInfoLocalizations-delete_instance"
+                "operationId": "deleteAppInfoLocalization",
+                "summary": "Delete an App Info Localization",
+                "description": "Delete an app information localization that is associated with an app."
             },
             "patch": {
                 "requestBody": {
@@ -4912,7 +4918,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appInfoLocalizations-update_instance"
+                "operationId": "modifyAppInfoLocalization",
+                "summary": "Modify an App Info Localization",
+                "description": "Modify localized app-level information for a particular language."
             },
             "parameters": [
                 {
@@ -8722,7 +8730,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreVersionLocalizations-create_instance"
+                "operationId": "createAppStoreVersionLocalization",
+                "summary": "Create an App Store Version Localization",
+                "description": "Add localized version-level information for a new locale."
             }
         },
         "/v1/appStoreVersionLocalizations/{id}": {
@@ -8883,7 +8893,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreVersionLocalizations-get_instance"
+                "operationId": "readAppStoreVersionLocalizationInformation",
+                "summary": "Read App Store Version Localization Information",
+                "description": "Read localized version-level information."
             },
             "delete": {
                 "tags": [
@@ -8934,7 +8946,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreVersionLocalizations-delete_instance"
+                "operationId": "deleteAppStoreVersionLocalization",
+                "summary": "Delete an App Store Version Localization",
+                "description": "Delete a language from your version metadata."
             },
             "patch": {
                 "requestBody": {
@@ -9003,7 +9017,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreVersionLocalizations-update_instance"
+                "operationId": "modifyAppStoreVersionLocalization",
+                "summary": "Modify an App Store Version Localization",
+                "description": "Modify localized version-level information for a particular language."
             },
             "parameters": [
                 {
@@ -9521,7 +9537,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreVersions-create_instance"
+                "operationId": "createAppStoreVersion",
+                "summary": "Create an App Store Version",
+                "description": "Add a new App Store version or platform to an app."
             }
         },
         "/v1/appStoreVersions/{id}": {
@@ -9915,7 +9933,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreVersions-get_instance"
+                "operationId": "readAppStoreVersionInformation",
+                "summary": "Read App Store Version Information",
+                "description": "Get information for a specific app store version."
             },
             "delete": {
                 "tags": [
@@ -9966,7 +9986,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreVersions-delete_instance"
+                "operationId": "deleteAppStoreVersion",
+                "summary": "Delete an App Store Version",
+                "description": "Delete an app store version that is associated with an app."
             },
             "patch": {
                 "requestBody": {
@@ -10035,7 +10057,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreVersions-update_instance"
+                "operationId": "modifyAppStoreVersion",
+                "summary": "Modify an App Store Version",
+                "description": "Update the app store version for a specific app."
             },
             "parameters": [
                 {
@@ -24132,7 +24156,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "routingAppCoverages-create_instance"
+                "operationId": "createRoutingAppCoverage",
+                "summary": "Create a Routing App Coverage",
+                "description": "Attach a routing app coverage file to an App Store version."
             }
         },
         "/v1/routingAppCoverages/{id}": {
@@ -24224,7 +24250,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "routingAppCoverages-get_instance"
+                "operationId": "readRoutingAppCoverageInformation",
+                "summary": "Read Routing App Coverage Information",
+                "description": "Get information about the routing app coverage file and its upload and processing status."
             },
             "delete": {
                 "tags": [
@@ -24275,7 +24303,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "routingAppCoverages-delete_instance"
+                "operationId": "deleteRoutingAppCoverage",
+                "summary": "Delete a Routing App Coverage",
+                "description": "Delete the routing app coverage file that is associated with a version."
             },
             "patch": {
                 "requestBody": {
@@ -24344,7 +24374,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "routingAppCoverages-update_instance"
+                "operationId": "modifyRoutingAppCoverage",
+                "summary": "Modify a Routing App Coverage",
+                "description": "Commit a routing app coverage file after uploading it."
             },
             "parameters": [
                 {
@@ -32795,7 +32827,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreVersionLocalizations-appPreviewSets-get_to_many_related"
+                "operationId": "listAppStoreVersionLocalizationPreviewSets",
+                "summary": "List All App Preview Sets for an App Store Version Localization",
+                "description": "List all app preview sets for a specific localization."
             },
             "parameters": [
                 {
@@ -33088,7 +33122,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreVersionLocalizations-appScreenshotSets-get_to_many_related"
+                "operationId": "listAppStoreVersionLocalizationScreenshotSets",
+                "summary": "List All App Screenshot Sets for an App Store Version Localization",
+                "description": "List all screenshot sets for a specific localization."
             },
             "parameters": [
                 {
@@ -33199,7 +33235,9 @@
                     }
                 },
                 "deprecated": true,
-                "operationId": "appStoreVersions-ageRatingDeclaration-get_to_one_related"
+                "operationId": "readAppStoreVersionAgeRatingDeclaration",
+                "summary": "Read the Age Rating Declaration Information of an App Store Version",
+                "description": "Get the age-related information declared for your app."
             },
             "parameters": [
                 {
@@ -33261,7 +33299,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreVersions-appClipDefaultExperience-get_to_one_relationship"
+                "operationId": "getAppStoreVersionDefaultAppClipExperienceID",
+                "summary": "Get the Default App Clip Experiences Resource ID for an App Store Version",
+                "description": "Get the ID of an app’s related default App Clip experience."
             },
             "patch": {
                 "requestBody": {
@@ -33313,7 +33353,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreVersions-appClipDefaultExperience-update_to_one_relationship"
+                "operationId": "modifyAppStoreVersionDefaultAppClipExperience",
+                "summary": "Modify the Default App Clip Experience of an App Store Version",
+                "description": "Update the relationship between an App Store version and a default App Clip experience."
             },
             "parameters": [
                 {
@@ -33517,7 +33559,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreVersions-appClipDefaultExperience-get_to_one_related"
+                "operationId": "getAppStoreVersionDefaultAppClipExperience",
+                "summary": "Get the Default App Clip Experience for an App Store Version",
+                "description": "Get the default App Clip experience for an App Store version of your app."
             },
             "parameters": [
                 {
@@ -33704,7 +33748,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreVersions-appStoreReviewDetail-get_to_one_related"
+                "operationId": "readAppStoreVersionReviewDetails",
+                "summary": "Read the App Store Review Details Resource Information of an App Store Version",
+                "description": "Get the details you provide to App Review so they can test your app."
             },
             "parameters": [
                 {
@@ -34036,7 +34082,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreVersions-appStoreVersionLocalizations-get_to_many_related"
+                "operationId": "listAppStoreVersionLocalizations",
+                "summary": "List All App Store Version Localizations for an App Store Version",
+                "description": "Get a list of localized, version-level information about an app, for all locales."
             },
             "parameters": [
                 {
@@ -34134,7 +34182,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreVersions-appStoreVersionPhasedRelease-get_to_one_related"
+                "operationId": "readAppStoreVersionPhasedReleaseInformation",
+                "summary": "Read the App Store Version Phased Release Information of an App Store Version",
+                "description": "Read the phased release status and configuration for a version with phased release enabled."
             },
             "parameters": [
                 {
@@ -34280,7 +34330,8 @@
                     }
                 },
                 "deprecated": true,
-                "operationId": "appStoreVersions-appStoreVersionSubmission-get_to_one_related"
+                "operationId": "readAppStoreVersionSubmissionInformation",
+                "summary": "Read the App Store Version Submission Information of an App Store Version"
             },
             "parameters": [
                 {
@@ -34342,7 +34393,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreVersions-build-get_to_one_relationship"
+                "operationId": "getAppStoreVersionBuildID",
+                "summary": "Get the Build ID for an App Store Version",
+                "description": "Get the ID of the build that is attached to a specific App Store version."
             },
             "patch": {
                 "requestBody": {
@@ -34394,7 +34447,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreVersions-build-update_to_one_relationship"
+                "operationId": "modifyAppStoreVersionBuild",
+                "summary": "Modify the Build for an App Store Version",
+                "description": "Change the build that is attached to a specific App Store version."
             },
             "parameters": [
                 {
@@ -34497,7 +34552,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreVersions-build-get_to_one_related"
+                "operationId": "readAppStoreVersionBuildInformation",
+                "summary": "Read the Build Information of an App Store Version",
+                "description": "Get the build that is attached to a specific App Store version."
             },
             "parameters": [
                 {
@@ -34596,7 +34653,9 @@
                     }
                 },
                 "deprecated": true,
-                "operationId": "appStoreVersions-idfaDeclaration-get_to_one_related"
+                "operationId": "readAppStoreVersionIDFADeclaration",
+                "summary": "Read the IDFA Declaration Information of an App Store Version",
+                "description": "Read your declared Advertising Identifier (IDFA) usage responses."
             },
             "parameters": [
                 {
@@ -34696,7 +34755,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreVersions-routingAppCoverage-get_to_one_related"
+                "operationId": "readAppStoreVersionRoutingAppCoverage",
+                "summary": "Read the Routing App Coverage Information of an App Store Version",
+                "description": "Get the routing app coverage file that is associated with a specific App Store version"
             },
             "parameters": [
                 {
