@@ -5116,7 +5116,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appInfos-get_instance"
+                "operationId": "readAppInfo",
+                "summary": "Read App Info Information",
+                "description": "Read App Store information including your App Store state, age ratings, Brazil age rating, and kids' age band."
             },
             "patch": {
                 "requestBody": {
@@ -5185,7 +5187,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appInfos-update_instance"
+                "operationId": "modifyAppInfo",
+                "summary": "Modify an App Info",
+                "description": "Update the App Store categories and sub-categories for your app."
             },
             "parameters": [
                 {
@@ -10989,7 +10993,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "apps-get_collection"
+                "operationId": "listApps",
+                "summary": "List Apps",
+                "description": "Find and list apps added in App Store Connect."
             }
         },
         "/v1/apps/{id}": {
@@ -11775,7 +11781,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-get_instance"
+                "operationId": "readAppInformation",
+                "summary": "Read App Information",
+                "description": "Get information about a specific app."
             },
             "patch": {
                 "requestBody": {
@@ -11844,7 +11852,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "apps-update_instance"
+                "operationId": "modifyApp",
+                "summary": "Modify an App",
+                "description": "Update app information including bundle ID, primary locale, price schedule, and global availability."
             },
             "parameters": [
                 {
@@ -22267,7 +22277,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "inAppPurchases-get_instance"
+                "operationId": "readInAppPurchaseInformation",
+                "summary": "Read In-App Purchase Information",
+                "description": "Get information about an in-app purchase."
             },
             "parameters": [
                 {
@@ -29829,7 +29841,8 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appInfos-ageRatingDeclaration-get_to_one_related"
+                "operationId": "readAppInfoAgeRatingDeclaration",
+                "description": "Get the age rating declaration for the app info."
             },
             "parameters": [
                 {
@@ -29996,7 +30009,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appInfos-appInfoLocalizations-get_to_many_related"
+                "operationId": "listAppInfoLocalizations",
+                "summary": "List All App Info Localizations for an App Info",
+                "description": "Get a list of localized, app-level information for an app."
             },
             "parameters": [
                 {
@@ -30092,7 +30107,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appInfos-primaryCategory-get_to_one_related"
+                "operationId": "readAppInfoPrimaryCategoryInformation",
+                "summary": "Read the Primary Category Information of an App Info",
+                "description": "Get an app’s primary App Store category."
             },
             "parameters": [
                 {
@@ -30188,7 +30205,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appInfos-primarySubcategoryOne-get_to_one_related"
+                "operationId": "readAppInfoPrimarySubcategoryOne",
+                "summary": "Read the Primary Subcategory One Information of an App Info",
+                "description": "Get the first App Store subcategory within an app’s primary category."
             },
             "parameters": [
                 {
@@ -30284,7 +30303,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appInfos-primarySubcategoryTwo-get_to_one_related"
+                "operationId": "readAppInfoPrimarySubcategoryTwo",
+                "summary": "Read the Primary Subcategory Two Information of an App Info",
+                "description": "Get the second App Store subcategory within an app’s primary category."
             },
             "parameters": [
                 {
@@ -30380,7 +30401,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appInfos-secondaryCategory-get_to_one_related"
+                "operationId": "readAppInfoSecondaryCategoryInformation",
+                "summary": "Read the Secondary Category Information of an App Info",
+                "description": "Get an app’s secondary App Store category."
             },
             "parameters": [
                 {
@@ -30476,7 +30499,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appInfos-secondarySubcategoryOne-get_to_one_related"
+                "operationId": "readAppInfoSecondarySubcategoryOne",
+                "summary": "Read the Secondary Subcategory One Information of an App Info",
+                "description": "Get the first App Store subcategory within an app’s secondary category."
             },
             "parameters": [
                 {
@@ -30572,7 +30597,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appInfos-secondarySubcategoryTwo-get_to_one_related"
+                "operationId": "readAppInfoSecondarySubcategoryTwo",
+                "summary": "Read the Secondary Subcategory Two Information of an App Info",
+                "description": "Get the second App Store subcategory within an app’s secondary category."
             },
             "parameters": [
                 {
@@ -34885,7 +34912,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-appClips-get_to_many_related"
+                "operationId": "searchAppAppClips",
+                "summary": "Search an App’s App Clips",
+                "description": "Search your App’s associated App Clips."
             },
             "parameters": [
                 {
@@ -35102,7 +35131,8 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-appCustomProductPages-get_to_many_related"
+                "operationId": "listAppCustomProductPages",
+                "summary": "List All Custom Product Pages for an App"
             },
             "parameters": [
                 {
@@ -35573,7 +35603,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-appInfos-get_to_many_related"
+                "operationId": "listAppAppInfos",
+                "summary": "List All App Infos for an App",
+                "description": "Get information about an app that is currently live on App Store, or that goes live with the next version."
             },
             "parameters": [
                 {
@@ -36112,7 +36144,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-appStoreVersions-get_to_many_related"
+                "operationId": "listAppAppStoreVersions",
+                "summary": "List All App Store Versions for an App",
+                "description": "Get a list of all App Store versions of an app across all platforms."
             },
             "parameters": [
                 {
@@ -36216,7 +36250,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-availableTerritories-get_to_many_related"
+                "operationId": "listAppAvailableTerritories",
+                "summary": "List All Available Territories for an App",
+                "description": "Get a list of App Store territories where an app is or will be available."
             },
             "parameters": [
                 {
@@ -36326,7 +36362,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-betaAppLocalizations-get_to_many_related"
+                "operationId": "listAppBetaAppLocalizations",
+                "summary": "List All Beta App Localizations of an App",
+                "description": "Get a list of localized beta test information for a specific app."
             },
             "parameters": [
                 {
@@ -36428,7 +36466,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-betaAppReviewDetail-get_to_one_related"
+                "operationId": "readBetaAppReviewDetails",
+                "summary": "Read the Beta App Review Details Resource of an App",
+                "description": "Get the beta app review details for a specific app."
             },
             "parameters": [
                 {
@@ -36545,7 +36585,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-betaGroups-get_to_many_related"
+                "operationId": "listAppBetaGroups",
+                "summary": "List All Beta Groups for an App",
+                "description": "Get a list of beta groups associated with a specific app."
             },
             "parameters": [
                 {
@@ -36640,7 +36682,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-betaLicenseAgreement-get_to_one_related"
+                "operationId": "readAppBetaLicenseAgreement",
+                "summary": "Read the Beta License Agreement of an App",
+                "description": "Get the beta license agreement for a specific app."
             },
             "parameters": [
                 {
@@ -36709,7 +36753,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "apps-betaTesters-delete_to_many_relationship"
+                "operationId": "removeAppBetaTesters",
+                "summary": "Remove Beta Testers from All Groups and Builds of an App",
+                "description": "Remove one or more beta testers' access to test any builds of a specific app."
             },
             "parameters": [
                 {
@@ -36836,7 +36882,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-builds-get_to_many_related"
+                "operationId": "listAppBuilds",
+                "summary": "List All Builds of an App",
+                "description": "Get a list of builds associated with a specific app."
             },
             "parameters": [
                 {
@@ -37060,7 +37108,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-ciProduct-get_to_one_related"
+                "operationId": "readAppXcodeCloudProduct",
+                "summary": "Read the Xcode Cloud Product for an App",
+                "description": "Get the Xcode Cloud product information for an app you build with Xcode Cloud."
             },
             "parameters": [
                 {
@@ -37156,7 +37206,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-endUserLicenseAgreement-get_to_one_related"
+                "operationId": "readAppEULA",
+                "summary": "Read the End User License Agreement Information of an App",
+                "description": "Get the custom end user license agreement (EULA) for a specific app and the territories where the agreement applies."
             },
             "parameters": [
                 {
@@ -37636,7 +37688,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-inAppPurchases-get_to_many_related"
+                "operationId": "listAppInAppPurchases",
+                "summary": "List All In-App Purchases for an App",
+                "description": "List the in-app purchases that are available for your app."
             },
             "parameters": [
                 {
@@ -37751,7 +37805,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-perfPowerMetrics-get_to_many_related"
+                "operationId": "getAppPowerAndPerformanceMetrics",
+                "summary": "Get Power and Performance Metrics for an App",
+                "description": "Get the performance and power metrics data for the most recent versions of an app."
             },
             "parameters": [
                 {
@@ -37847,7 +37903,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-preOrder-get_to_one_related"
+                "operationId": "readAppPreorderInformation",
+                "summary": "Read the Pre-Order Information of an App",
+                "description": "Get available date and release date of an app that is available for pre-order."
             },
             "parameters": [
                 {
@@ -37954,7 +38012,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-preReleaseVersions-get_to_many_related"
+                "operationId": "listAppPrereleaseVersions",
+                "summary": "List All Prerelease Versions for an App",
+                "description": "Get a list of prerelease versions associated with a specific app."
             },
             "parameters": [
                 {
@@ -38186,7 +38246,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-pricePoints-get_to_many_related"
+                "operationId": "listAppPricePoints",
+                "summary": "List All Price Points for an App",
+                "description": "Get all the available price points for a specific app."
             },
             "parameters": [
                 {
@@ -38372,7 +38434,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-prices-get_to_many_related"
+                "operationId": "listAppPrices",
+                "summary": "List All Prices for an App",
+                "description": "Get the current price tier of an app and any future scheduled price changes."
             },
             "parameters": [
                 {
