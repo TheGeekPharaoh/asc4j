@@ -79,7 +79,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "ageRatingDeclarations-update_instance"
+                "operationId": "modifyAgeRatingDeclaration",
+                "summary": "Modify an Age Rating Declaration",
+                "description": "Provide age-related information so the App Store can determine the age rating for your app."
             },
             "parameters": [
                 {
@@ -224,7 +226,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "appCategories-get_collection"
+                "operationId": "listAppCategories",
+                "summary": "List App Categories",
+                "description": "List all categories on the App Store, including the category and subcategory hierarchy."
             }
         },
         "/v1/appCategories/{id}": {
@@ -324,7 +328,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appCategories-get_instance"
+                "operationId": "readAppCategory",
+                "summary": "Read App Category Information",
+                "description": "Get a specific app category."
             },
             "parameters": [
                 {
@@ -21679,7 +21685,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "endUserLicenseAgreements-create_instance"
+                "operationId": "createEndUserLicenseAgreement",
+                "summary": "Create an End User License Agreement",
+                "description": "Add a custom end user license agreement (EULA) to an app and configure the territories to which it applies."
             }
         },
         "/v1/endUserLicenseAgreements/{id}": {
@@ -21796,7 +21804,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "endUserLicenseAgreements-get_instance"
+                "operationId": "readEndUserLicenseAgreementInformation",
+                "summary": "Read End User License Agreement Information",
+                "description": "Get the custom end user license agreement associated with an app, and the territories it applies to."
             },
             "delete": {
                 "tags": [
@@ -21847,7 +21857,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "endUserLicenseAgreements-delete_instance"
+                "operationId": "deleteEndUserLicenseAgreement",
+                "summary": "Delete an End User License Agreement",
+                "description": "Delete the custom end user license agreement that is associated with an app."
             },
             "patch": {
                 "requestBody": {
@@ -21916,7 +21928,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "endUserLicenseAgreements-update_instance"
+                "operationId": "modifyEndUserLicenseAgreement",
+                "summary": "Modify an End User License Agreement",
+                "description": "Update the text or territories for your custom end user license agreement."
             },
             "parameters": [
                 {
@@ -26477,7 +26491,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appCategories-parent-get_to_one_related"
+                "operationId": "readAppCategoryParent",
+                "summary": "Read the Parent Information of an App Category",
+                "description": "Get the App Store category to which a specific subcategory belongs."
             },
             "parameters": [
                 {
@@ -26583,7 +26599,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appCategories-subcategories-get_to_many_related"
+                "operationId": "listAppSubcategories",
+                "summary": "List All Subcategories for an App Category",
+                "description": "List all App Store subcategories that belong to a specific category."
             },
             "parameters": [
                 {
@@ -47839,7 +47857,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "endUserLicenseAgreements-territories-get_to_many_related"
+                "operationId": "listEndUserLicenseAgreementTerritories",
+                "summary": "List All Territories for an End User License Agreement",
+                "description": "List all the App Store territories to which a specific custom app license agreement applies."
             },
             "parameters": [
                 {
