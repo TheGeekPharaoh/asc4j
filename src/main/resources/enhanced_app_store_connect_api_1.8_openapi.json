@@ -37571,7 +37571,8 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "apps-gameCenterEnabledVersions-get_to_many_related"
+                "operationId": "listAppGameCenterEnabledVersions",
+                "summary": "List All Game Center Enabled Versions for an App"
             },
             "parameters": [
                 {
@@ -47933,7 +47934,8 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "gameCenterEnabledVersions-compatibleVersions-get_to_many_relationship"
+                "operationId": "getGameCenterEnabledVersionCompatibleVersionIDs",
+                "summary": "Get All Compatible Version IDs for a Game Center Enabled Version"
             },
             "post": {
                 "requestBody": {
@@ -47985,7 +47987,8 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "gameCenterEnabledVersions-compatibleVersions-create_to_many_relationship"
+                "operationId": "addGameCenterEnabledVersionCompatibleVersion",
+                "summary": "Add Compatible Versions to a Game Center Enabled Version"
             },
             "delete": {
                 "requestBody": {
@@ -48037,7 +48040,8 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "gameCenterEnabledVersions-compatibleVersions-delete_to_many_relationship"
+                "operationId": "removeGameCenterEnabledVersionCompatibleVersions",
+                "summary": "Remove Compatible Versions from a Game Center Enabled Version"
             },
             "patch": {
                 "requestBody": {
@@ -48089,7 +48093,8 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "gameCenterEnabledVersions-compatibleVersions-replace_to_many_relationship"
+                "operationId": "updateGameCenterEnabledVersionCompatibleVersions",
+                "summary": "Replace All Compatible Versions for a Game Center Enabled Version"
             },
             "parameters": [
                 {
@@ -48332,7 +48337,8 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "gameCenterEnabledVersions-compatibleVersions-get_to_many_related"
+                "operationId": "listGameCenterEnabledVersionCompatibleVersions",
+                "summary": "List All Compatible Versions for a Game Center Enabled Version"
             },
             "parameters": [
                 {
