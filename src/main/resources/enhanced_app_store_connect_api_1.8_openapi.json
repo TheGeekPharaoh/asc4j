@@ -5551,7 +5551,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appPreviewSets-create_instance"
+                "operationId": "createAppPreviewSet",
+                "summary": "Create an App Preview Set",
+                "description": "Add a new app preview set to an App Store version localization for a specific app preview type and display size."
             }
         },
         "/v1/appPreviewSets/{id}": {
@@ -5682,7 +5684,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appPreviewSets-get_instance"
+                "operationId": "readAppPreviewSetInformation",
+                "summary": "Read App Preview Set Information",
+                "description": "Get an app preview set that includes its display target, language, and the previews it contains."
             },
             "delete": {
                 "tags": [
@@ -5733,7 +5737,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appPreviewSets-delete_instance"
+                "operationId": "deleteAppPreviewSet",
+                "summary": "Delete an App Preview Set",
+                "description": "Delete an app preview set and all of its previews."
             },
             "parameters": [
                 {
@@ -5806,7 +5812,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appPreviews-create_instance"
+                "operationId": "createAppPreview",
+                "summary": "Create an App Preview",
+                "description": "Add a new app preview to a preview set."
             }
         },
         "/v1/appPreviews/{id}": {
@@ -5902,7 +5910,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appPreviews-get_instance"
+                "operationId": "readAppPreviewInformation",
+                "summary": "Read App Preview Information",
+                "description": "Get information about an app preview and its upload and processing status."
             },
             "delete": {
                 "tags": [
@@ -5953,7 +5963,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appPreviews-delete_instance"
+                "operationId": "deleteAppPreview",
+                "summary": "Delete an App Preview",
+                "description": "Delete an app preview within a preview set."
             },
             "patch": {
                 "requestBody": {
@@ -6022,7 +6034,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appPreviews-update_instance"
+                "operationId": "modifyAppPreview",
+                "summary": "Modify an App Preview",
+                "description": "Commit the app preview after uploading it, and update the poster frame timecode."
             },
             "parameters": [
                 {
@@ -6715,7 +6729,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appScreenshotSets-create_instance"
+                "operationId": "createAppScreenshotSet",
+                "summary": "Create an App Screenshot Set",
+                "description": "Add a new screenshot set to an App Store version localization for a specific screenshot type and display size."
             }
         },
         "/v1/appScreenshotSets/{id}": {
@@ -6845,7 +6861,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appScreenshotSets-get_instance"
+                "operationId": "readAppScreenshotSet",
+                "summary": "Read App Screenshot Set Information",
+                "description": "Get an app screenshot set including its display target, language, and the screenshot it contains."
             },
             "delete": {
                 "tags": [
@@ -6896,7 +6914,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appScreenshotSets-delete_instance"
+                "operationId": "deleteAppScreenshotSet",
+                "summary": "Delete an App Screenshot Set",
+                "description": "Delete an app screenshot set and all of its screenshots."
             },
             "parameters": [
                 {
@@ -6969,7 +6989,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appScreenshots-create_instance"
+                "operationId": "createAppScreenshot",
+                "summary": "Create an App Screenshot",
+                "description": "Add a new screenshot to a screenshot set."
             }
         },
         "/v1/appScreenshots/{id}": {
@@ -7064,7 +7086,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appScreenshots-get_instance"
+                "operationId": "readAppScreenshotInformation",
+                "summary": "Read App Screenshot Information",
+                "description": "Get information about an app screenshot and its upload and processing status."
             },
             "delete": {
                 "tags": [
@@ -7115,7 +7139,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appScreenshots-delete_instance"
+                "operationId": "deleteAppScreenshot",
+                "summary": "Delete an App Screenshot",
+                "description": "Delete an app screenshot that is associated with a screenshot set."
             },
             "patch": {
                 "requestBody": {
@@ -7184,7 +7210,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appScreenshots-update_instance"
+                "operationId": "modifyAppScreenshot",
+                "summary": "Modify an App Screenshot",
+                "description": "Commit an app screenshot after uploading it."
             },
             "parameters": [
                 {
@@ -30705,7 +30733,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appPreviewSets-appPreviews-get_to_many_relationship"
+                "operationId": "getAppPreviewSetAppPreviewIDs",
+                "summary": "Get All App Preview IDs for an App Preview Set",
+                "description": "Get the ordered app preview IDs in a preview set."
             },
             "patch": {
                 "requestBody": {
@@ -30757,7 +30787,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appPreviewSets-appPreviews-replace_to_many_relationship"
+                "operationId": "updateAppPreviewSetAppPreviews",
+                "summary": "Replace All App Previews for an App Preview Set",
+                "description": "Change the order of the app previews in a preview set."
             },
             "parameters": [
                 {
@@ -30893,7 +30925,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appPreviewSets-appPreviews-get_to_many_related"
+                "operationId": "listAppPreviewSetAppPreviews",
+                "summary": "List All App Previews for an App Preview Set",
+                "description": "List all ordered app previews in a preview set."
             },
             "parameters": [
                 {
@@ -31232,7 +31266,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appScreenshotSets-appScreenshots-get_to_many_relationship"
+                "operationId": "getAppScreenshotSetAppScreenshotIDs",
+                "summary": "Get All App Screenshot IDs for an App Screenshot Set",
+                "description": "Get the ordered screenshot IDs in a screenshot set."
             },
             "patch": {
                 "requestBody": {
@@ -31284,7 +31320,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appScreenshotSets-appScreenshots-replace_to_many_relationship"
+                "operationId": "updateAppScreenshotSetAppScreenshots",
+                "summary": "Replace All App Screenshots for an App Screenshot Set",
+                "description": "Change the order of the screenshots in a screenshot set."
             },
             "parameters": [
                 {
@@ -31419,7 +31457,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appScreenshotSets-appScreenshots-get_to_many_related"
+                "operationId": "listAppScreenshotSetAppScreenshots",
+                "summary": "List All App Screenshots for an App Screenshot Set",
+                "description": "List all ordered screenshots in a screenshot set."
             },
             "parameters": [
                 {
