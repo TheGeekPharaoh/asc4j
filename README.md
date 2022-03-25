@@ -110,14 +110,23 @@ If you find this library helpful and encounter any issues, or if you wish to con
 
 ## FAQs
 
+#### *What is the purpose of this library?*
+
+The purpose is two-fold.  First, the OpenAPI spec for App Store Connect is great.  However, the human-readable documentation is sorely lacking.  Endpoint names and descriptions are missing.  The operation IDs do not convert to method names for any programming language.  As a result, using any of the [OpenAPI client generators](https://github.com/OpenAPITools/openapi-generator) does not result in easily-usable client code.  This project aims to address both issues.  The OpenAPI spec, itself, has been enhanced with documentation from Apple's primary documentation for App Store Connect API.  In addition, an easy-to-use Java client library has been generated off of this enhanced spec.
+
+
+#### *Are you going to create libraries for other languages?*
+
+I don't have any plans right now.  However, it is possible that I will create one for Swift in the future.
+
 #### *Is this library available on Maven Central?*
 
 Not yet.  I'm working on it, though.  Stay tuned!
 
 #### *Are all of the App Store Connect API methods documentation and implemented in this library?*
 
-No, not at the moment.  Currently, only the core functionality has been implemented, though there are plans to include the entirety of the API.
+No, not at the moment.  Core functionality -- particularly functionality that has existed in older versions of the spec -- has been documented.  Work is underway to document the remainder.  Additionally, some operations are not well-documented by Apple in their [App Store Connect API Documentation](https://developer.apple.com/documentation/appstoreconnectapi).  As a result, those items will be skipped until proper vendor documentation is added.
 
 #### *Why are the property names and descriptions so generic?*
 
-These values are obtained directly from the App Store Connect API documentation.  No effort was made to map those names to friendlier property names, or to infer better documentation for them.
+These values are obtained directly from the [App Store Connect API Documentation](https://developer.apple.com/documentation/appstoreconnectapi).  No effort was made to map those names to friendlier property names, or to infer better documentation for them.
