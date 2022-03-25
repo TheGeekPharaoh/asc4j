@@ -3264,7 +3264,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "appEncryptionDeclarations-get_collection"
+                "operationId": "listAppEncryptionDeclarations",
+                "summary": "List App Encryption Declarations",
+                "description": "Find and list all available app encryption declarations."
             }
         },
         "/v1/appEncryptionDeclarations/{id}": {
@@ -3412,7 +3414,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appEncryptionDeclarations-get_instance"
+                "operationId": "readAppEncryptionDeclaration",
+                "summary": "Read App Encryption Declaration Information",
+                "description": "Get information about a specific app encryption declaration."
             },
             "parameters": [
                 {
@@ -17250,7 +17254,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "builds-get_collection"
+                "operationId": "listBuilds",
+                "summary": "List Builds",
+                "description": "Find and list builds for all apps in App Store Connect."
             }
         },
         "/v1/builds/{id}": {
@@ -17698,7 +17704,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "builds-get_instance"
+                "operationId": "readBuildInformation",
+                "summary": "Read Build Information",
+                "description": "Get information about a specific build."
             },
             "patch": {
                 "requestBody": {
@@ -17767,7 +17775,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "builds-update_instance"
+                "operationId": "modifyBuild",
+                "summary": "Modify a Build",
+                "description": "Expire a build or change its encryption exemption setting."
             },
             "parameters": [
                 {
@@ -29272,7 +29282,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appEncryptionDeclarations-app-get_to_one_related"
+                "operationId": "readAppEncryptionDeclarationAppInformation",
+                "summary": "Read the App Information of an App Encryption Declaration",
+                "description": "Get the app information from a specific app encryption declaration."
             },
             "parameters": [
                 {
@@ -29338,7 +29350,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appEncryptionDeclarations-builds-create_to_many_relationship"
+                "operationId": "assignAppEncryptionDeclarationBuilds",
+                "summary": "Assign Builds to an App Encryption Declaration",
+                "description": "Assign one or more builds to an app encryption declaration."
             },
             "parameters": [
                 {
@@ -41233,7 +41247,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "buildBundles-appClipDomainCacheStatus-get_to_one_related"
+                "operationId": "readBuildBundleAppClipDomainCacheStatus",
+                "summary": "Read the App Clip Domain Cache Status Information for a Build Bundle",
+                "description": "Get the cache status of the domain you associate with your App Clip for a specific build bundle."
             },
             "parameters": [
                 {
@@ -41328,7 +41344,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "buildBundles-appClipDomainDebugStatus-get_to_one_related"
+                "operationId": "readBuildBundleAppClipDomainDebugStatus",
+                "summary": "Read App Clip Domain Debug Status Information for a Build Bundle",
+                "description": "Get the debug status of the domain you associate with your App Clip for a specific build bundle."
             },
             "parameters": [
                 {
@@ -41478,7 +41496,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "buildBundles-betaAppClipInvocations-get_to_many_related"
+                "operationId": "listBuildBundleBetaAppClipInvocations",
+                "summary": "List All Beta App Clip Invocations for a Build Bundle",
+                "description": "Get all App Clip invocations you configure for testing for a specific build bundle."
             },
             "parameters": [
                 {
@@ -41585,7 +41605,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "buildBundles-buildBundleFileSizes-get_to_many_related"
+                "operationId": "listBuildBundleFileSizes",
+                "summary": "List All File Sizes for a Build Bundle",
+                "description": "Get all file sizes for a specific build bundle."
             },
             "parameters": [
                 {
@@ -41711,7 +41733,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "builds-app-get_to_one_related"
+                "operationId": "readBuildAppInformation",
+                "summary": "Read the App Information of a Build",
+                "description": "Get the app information for a specific build."
             },
             "parameters": [
                 {
@@ -41773,7 +41797,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "builds-appEncryptionDeclaration-get_to_one_relationship"
+                "operationId": "getBuildAppEncryptionDeclarationID",
+                "summary": "Get the App Encryption Declaration ID for a Build",
+                "description": "Get the beta app encryption declaration resource ID associated with a build."
             },
             "patch": {
                 "requestBody": {
@@ -41825,7 +41851,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "builds-appEncryptionDeclaration-update_to_one_relationship"
+                "operationId": "assignBuildAppEncryptionDeclaration",
+                "summary": "Assign the App Encryption Declaration for a Build",
+                "description": "Assign an app encryption declaration to a build."
             },
             "parameters": [
                 {
@@ -41918,7 +41946,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "builds-appEncryptionDeclaration-get_to_one_related"
+                "operationId": "readBuildAppEncryptionDeclaration",
+                "summary": "Read the App Encryption Declaration of a Build",
+                "description": "Read an app encryption declaration associated with a specific build."
             },
             "parameters": [
                 {
@@ -42369,7 +42399,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "builds-appStoreVersion-get_to_one_related"
+                "operationId": "readBuildAppStoreVersionInformation",
+                "summary": "Read the App Store Version Information of a Build",
+                "description": "Get the App Store version of a specific build."
             },
             "parameters": [
                 {
@@ -42465,7 +42497,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "builds-betaAppReviewSubmission-get_to_one_related"
+                "operationId": "readBuildBetaAppReviewSubmission",
+                "summary": "Read the Beta App Review Submission of a Build",
+                "description": "Get the beta app review submission status for a specific build."
             },
             "parameters": [
                 {
@@ -42571,7 +42605,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "builds-betaBuildLocalizations-get_to_many_related"
+                "operationId": "listBuildBetaBuildLocalizations",
+                "summary": "List All Beta Build Localizations of a Build",
+                "description": "Get a list of localized beta test information for a specific build."
             },
             "parameters": [
                 {
@@ -42637,7 +42673,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "builds-betaGroups-create_to_many_relationship"
+                "operationId": "addBuildBetaGroupsAccess",
+                "summary": "Add Access for Beta Groups to a Build",
+                "description": "Add or create a beta group to a build to enable testing."
             },
             "delete": {
                 "requestBody": {
@@ -42689,7 +42727,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "builds-betaGroups-delete_to_many_relationship"
+                "operationId": "removeBuildBetaGroupsAccess",
+                "summary": "Remove Access for Beta Groups to a Build",
+                "description": "Remove access to a specific build for all beta testers in one or more beta groups."
             },
             "parameters": [
                 {
@@ -42786,7 +42826,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "builds-buildBetaDetail-get_to_one_related"
+                "operationId": "readBuildBetaDetails",
+                "summary": "Read the Build Beta Details Information of a Build",
+                "description": "Get the beta test details for a specific build."
             },
             "parameters": [
                 {
@@ -43015,7 +43057,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "builds-icons-get_to_many_related"
+                "operationId": "listBuildIcons",
+                "summary": "List All Icons for a Build",
+                "description": "List all the icons for various platforms delivered with a build."
             },
             "parameters": [
                 {
@@ -43089,7 +43133,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "builds-individualTesters-get_to_many_relationship"
+                "operationId": "getBuildIndividualTesterIDs",
+                "summary": "Get All Resource IDs of Individual Testers for a Build",
+                "description": "Get a list of resource IDs of individual testers associated with a build."
             },
             "post": {
                 "requestBody": {
@@ -43141,7 +43187,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "builds-individualTesters-create_to_many_relationship"
+                "operationId": "assignBuildIndividualTesters",
+                "summary": "Assign Individual Testers to a Build",
+                "description": "Enable a beta tester who is not a part of a beta group to test a build."
             },
             "delete": {
                 "requestBody": {
@@ -43193,7 +43241,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "builds-individualTesters-delete_to_many_relationship"
+                "operationId": "removeBuildIndividualTesters",
+                "summary": "Remove Individual Testers from a Build",
+                "description": "Remove access to test a specific build from one or more individually assigned testers."
             },
             "parameters": [
                 {
@@ -43289,7 +43339,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "builds-individualTesters-get_to_many_related"
+                "operationId": "listBuildIndividualTesters",
+                "summary": "List All Individual Testers for a Build",
+                "description": "Get a list of beta testers individually assigned to a build."
             },
             "parameters": [
                 {
@@ -43501,7 +43553,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "builds-preReleaseVersion-get_to_one_related"
+                "operationId": "readBuildPrereleaseVersion",
+                "summary": "Read the Prerelease Version of a Build",
+                "description": "Get the prerelease version for a specific build."
             },
             "parameters": [
                 {
