@@ -403,7 +403,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appClipAdvancedExperienceImages-create_instance"
+                "operationId": "createAdvancedAppClipExperienceAppClipCardImage",
+                "summary": "Create an App Clip Card Image for an Advanced App Clip Experience",
+                "description": "Reserve an image asset that appears on the App Clip card of an advanced App Clip experience."
             }
         },
         "/v1/appClipAdvancedExperienceImages/{id}": {
@@ -478,7 +480,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appClipAdvancedExperienceImages-get_instance"
+                "operationId": "readAdvancedAppClipExperienceImage",
+                "summary": "Read Image Information for an Advanced App Clip Experience",
+                "description": "Get information about the image that appears on the App Clip card of an advanced App Clip experience."
             },
             "patch": {
                 "requestBody": {
@@ -547,7 +551,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appClipAdvancedExperienceImages-update_instance"
+                "operationId": "modifyAdvancedAppClipExperienceImage",
+                "summary": "Modify the Image for an Advanced App Clip Experience",
+                "description": "Update image information or commit the image asset of an advanced App Clip experience."
             },
             "parameters": [
                 {
@@ -620,7 +626,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appClipAdvancedExperiences-create_instance"
+                "operationId": "createAdvancedAppClipExperience",
+                "summary": "Create an Advanced App Clip Experience",
+                "description": "Configure a new advanced App Clip experience."
             }
         },
         "/v1/appClipAdvancedExperiences/{id}": {
@@ -731,7 +739,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appClipAdvancedExperiences-get_instance"
+                "operationId": "readAdvancedAppClipExperienceInformation",
+                "summary": "Read Advanced App Clip Experience Information",
+                "description": "Get information about a specific advanced App Clip experience."
             },
             "patch": {
                 "requestBody": {
@@ -800,7 +810,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appClipAdvancedExperiences-update_instance"
+                "operationId": "modifyAdvancedAppClipExperience",
+                "summary": "Modify and Delete an Advanced App Clip Experience",
+                "description": "Update and delete an existing advanced App Clip experience."
             },
             "parameters": [
                 {
@@ -1102,7 +1114,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appClipDefaultExperienceLocalizations-create_instance"
+                "operationId": "createDefaultAppClipExperienceLocalizedMetadata",
+                "summary": "Create the Localized Metadata for a Default App Clip Experience",
+                "description": "Provide localized metadata that appears on the App Clip card of a default App Clip experience."
             }
         },
         "/v1/appClipDefaultExperienceLocalizations/{id}": {
@@ -1216,7 +1230,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appClipDefaultExperienceLocalizations-get_instance"
+                "operationId": "readDefaultAppClipExperienceLocalization",
+                "summary": "Read Localization Information of a Default App Clip Experience",
+                "description": "Get localized metadata that appears on the App Clip card of a specific default App Clip experience."
             },
             "delete": {
                 "tags": [
@@ -1267,7 +1283,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appClipDefaultExperienceLocalizations-delete_instance"
+                "operationId": "deleteDefaultAppClipExperienceLocalization",
+                "summary": "Delete a Default App Clip Experience Localization",
+                "description": "Delete localized metadata that appears on the App Clip card of a default App Clip experience."
             },
             "patch": {
                 "requestBody": {
@@ -1336,7 +1354,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appClipDefaultExperienceLocalizations-update_instance"
+                "operationId": "modifyDefaultAppClipExperienceLocalization",
+                "summary": "Modify the Localization for a Default App Clip Experience",
+                "description": "Update localized metadata for a specific default App Clip experience."
             },
             "parameters": [
                 {
@@ -1409,7 +1429,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appClipDefaultExperiences-create_instance"
+                "operationId": "createDefaultAppClipExperience",
+                "summary": "Create a Default App Clip Experience",
+                "description": "Configure a new default App Clip experience."
             }
         },
         "/v1/appClipDefaultExperiences/{id}": {
@@ -1588,7 +1610,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appClipDefaultExperiences-get_instance"
+                "operationId": "readDefaultAppClipExperience",
+                "summary": "Read Default App Clip Experience Information",
+                "description": "Get a specific default App Clip experience."
             },
             "delete": {
                 "tags": [
@@ -1639,7 +1663,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appClipDefaultExperiences-delete_instance"
+                "operationId": "deleteDefaultAppClipExperience",
+                "summary": "Delete a Default App Clip Experience",
+                "description": "Delete a specific default App Clip experience."
             },
             "patch": {
                 "requestBody": {
@@ -1708,7 +1734,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appClipDefaultExperiences-update_instance"
+                "operationId": "modifyDefaultAppClipExperience",
+                "summary": "Modify a Default App Clip Experience",
+                "description": "Update a default App Clip experience."
             },
             "parameters": [
                 {
@@ -1781,7 +1809,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appClipHeaderImages-create_instance"
+                "operationId": "createDefaultAppClipExperienceAppClipCardImage",
+                "summary": "Create an App Clip Card Image for a Default App Clip Experience",
+                "description": "Reserve an image asset that appears on the App Clip card of a default App Clip experience."
             }
         },
         "/v1/appClipHeaderImages/{id}": {
@@ -1874,7 +1904,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appClipHeaderImages-get_instance"
+                "operationId": "readAppClipCardImage",
+                "summary": "Read the App Clip Card Image",
+                "description": "Get the image that appears on the App Clip card of a default App Clip experience."
             },
             "delete": {
                 "tags": [
@@ -1925,7 +1957,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appClipHeaderImages-delete_instance"
+                "operationId": "deleteDefaultAppClipExperienceImage",
+                "summary": "Delete a Default App Clip Experience Image",
+                "description": "Delete the image asset that appears on the App Clip card for a default App Clip experience."
             },
             "patch": {
                 "requestBody": {
@@ -1994,7 +2028,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appClipHeaderImages-update_instance"
+                "operationId": "modifyAppClipCardImage",
+                "summary": "Modify an App Clip Card Image",
+                "description": "Change the image that appears on the App Clip card of a default App Clip experience."
             },
             "parameters": [
                 {
@@ -2158,7 +2194,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appClips-get_instance"
+                "operationId": "readAppClip",
+                "summary": "Read App Clip Information",
+                "description": "Get a specific App Clip."
             },
             "parameters": [
                 {
@@ -26737,7 +26775,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appClipDefaultExperienceLocalizations-appClipHeaderImage-get_to_one_related"
+                "operationId": "readLocalizedDefaultAppClipExperienceAppClipCardImage",
+                "summary": "Read App Clip Card Image Information for a Localized Default App Clip Experience",
+                "description": "Get the image that appears on the App Clip card, specific to a locale, for a default App Clip experience."
             },
             "parameters": [
                 {
@@ -26869,7 +26909,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appClipDefaultExperiences-appClipAppStoreReviewDetail-get_to_one_related"
+                "operationId": "readDefaultAppClipExperienceAppStoreReviewDetail",
+                "summary": "Read the App Store Review Detail for a Default App Clip Experience",
+                "description": "Get App Store Review details for a specific default App Clip experience."
             },
             "parameters": [
                 {
@@ -27050,7 +27092,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appClipDefaultExperiences-appClipDefaultExperienceLocalizations-get_to_many_related"
+                "operationId": "readDefaultAppClipExperienceLocalizations",
+                "summary": "Read Localization Information for a Default App Clip Experience",
+                "description": "Get localized metadata that appears on the App Clip card for a specific default App Clip experience."
             },
             "parameters": [
                 {
@@ -27112,7 +27156,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appClipDefaultExperiences-releaseWithAppStoreVersion-get_to_one_relationship"
+                "operationId": "getDefaultAppClipExperienceAppStoreVersionIDs",
+                "summary": "Get the App Store Versions Resource ID for a Default App Clip Experience",
+                "description": "Get IDs for App Store Versions related to a default App Clip experience."
             },
             "patch": {
                 "requestBody": {
@@ -27164,7 +27210,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appClipDefaultExperiences-releaseWithAppStoreVersion-update_to_one_relationship"
+                "operationId": "modifyDefaultAppClipExperienceAppStoreVersion",
+                "summary": "Modify the Related App Store Version for a Default App Clip Experience",
+                "description": "Update the relationship between a default App Clip experience and an App Store Version."
             },
             "parameters": [
                 {
@@ -27601,7 +27649,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appClipDefaultExperiences-releaseWithAppStoreVersion-get_to_one_related"
+                "operationId": "readDefaultAppClipExperienceAppStoreVersion",
+                "summary": "Read App Store Version Information for a Default App Clip Experience",
+                "description": "Get App Store Version information for a default App Clip experience."
             },
             "parameters": [
                 {
@@ -27858,7 +27908,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appClips-appClipAdvancedExperiences-get_to_many_related"
+                "operationId": "listAppClipAdvancedAppClipExperiences",
+                "summary": "List All Advanced App Clip Experiences for an App Clip",
+                "description": "Get all advanced App Clip experiences for an App Clip."
             },
             "parameters": [
                 {
@@ -28099,7 +28151,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appClips-appClipDefaultExperiences-get_to_many_related"
+                "operationId": "listAppClipDefaultAppClipExperiences",
+                "summary": "List All Default App Clip Experiences for an App Clip",
+                "description": "Get all default App Clip experiences for an App Clip."
             },
             "parameters": [
                 {
