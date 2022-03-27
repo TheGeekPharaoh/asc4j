@@ -12622,7 +12622,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "betaAppLocalizations-get_collection"
+                "operationId": "listBetaAppLocalizations",
+                "summary": "List Beta App Localizations",
+                "description": "Find and list beta app localizations for all apps and locales."
             },
             "post": {
                 "requestBody": {
@@ -12681,7 +12683,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaAppLocalizations-create_instance"
+                "operationId": "createBetaAppLocalization",
+                "summary": "Create a Beta App Localization",
+                "description": "Create localized descriptive information for an app."
             }
         },
         "/v1/betaAppLocalizations/{id}": {
@@ -12822,7 +12826,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaAppLocalizations-get_instance"
+                "operationId": "readBetaAppLocalizationInformation",
+                "summary": "Read Beta App Localization Information",
+                "description": "Get localized beta app information for a specific app and locale."
             },
             "delete": {
                 "tags": [
@@ -12873,7 +12879,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaAppLocalizations-delete_instance"
+                "operationId": "deleteBetaAppLocalization",
+                "summary": "Delete a Beta App Localization",
+                "description": "Delete a beta app localization associated with an app."
             },
             "patch": {
                 "requestBody": {
@@ -12942,7 +12950,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaAppLocalizations-update_instance"
+                "operationId": "betaAppLocalizations-update_instance",
+                "summary": "Modify a Beta App Localization",
+                "description": "Update the localized What’s New text for a specific app and locale."
             },
             "parameters": [
                 {
@@ -14542,7 +14552,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "betaGroups-get_collection"
+                "operationId": "listBetaGroups",
+                "summary": "List Beta Groups",
+                "description": "Find and list beta groups for all apps."
             },
             "post": {
                 "requestBody": {
@@ -14601,7 +14613,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaGroups-create_instance"
+                "operationId": "createBetaGroup",
+                "summary": "Create a Beta Group",
+                "description": "Create a beta group associated with an app, optionally enabling TestFlight public links."
             }
         },
         "/v1/betaGroups/{id}": {
@@ -14836,7 +14850,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaGroups-get_instance"
+                "operationId": "readBetaGroupInformation",
+                "summary": "Read Beta Group Information",
+                "description": "Get a specific beta group."
             },
             "delete": {
                 "tags": [
@@ -14887,7 +14903,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaGroups-delete_instance"
+                "operationId": "deleteBetaGroup",
+                "summary": "Delete a Beta Group",
+                "description": "Delete a beta group and remove beta tester access to associated builds."
             },
             "patch": {
                 "requestBody": {
@@ -14956,7 +14974,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaGroups-update_instance"
+                "operationId": "modifyBetaGroup",
+                "summary": "Modify a Beta Group",
+                "description": "Modify a beta group's metadata, including changing its Testflight public link status."
             },
             "parameters": [
                 {
@@ -15118,7 +15138,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "betaLicenseAgreements-get_collection"
+                "operationId": "listBetaLicenseAgreement",
+                "summary": "List Beta License Agreements",
+                "description": "Find and list beta license agreements for all apps."
             }
         },
         "/v1/betaLicenseAgreements/{id}": {
@@ -15254,7 +15276,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaLicenseAgreements-get_instance"
+                "operationId": "readBetaLicenseAgreement",
+                "summary": "Read Beta License Agreement Information",
+                "description": "Get a specific beta license agreement."
             },
             "patch": {
                 "requestBody": {
@@ -15323,7 +15347,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaLicenseAgreements-update_instance"
+                "operationId": "modifyBetaLicenseAgreement",
+                "summary": "Modify a Beta License Agreement",
+                "description": "Update the text for your beta license agreement."
             },
             "parameters": [
                 {
@@ -15396,7 +15422,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaTesterInvitations-create_instance"
+                "operationId": "sendBetaTesterInvitation",
+                "summary": "Send an Invitation to a Beta Tester",
+                "description": "Send or resend an invitation to a beta tester to test a specified app."
             }
         },
         "/v1/betaTesters": {
@@ -15782,7 +15810,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "betaTesters-get_collection"
+                "operationId": "listBetaTesters",
+                "summary": "List Beta Testers",
+                "description": "Find and list beta testers for all apps, builds, and beta groups."
             },
             "post": {
                 "requestBody": {
@@ -15841,7 +15871,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaTesters-create_instance"
+                "operationId": "createBetaTester",
+                "summary": "Create a Beta Tester",
+                "description": "Create a beta tester assigned to a group, a build, or an app."
             }
         },
         "/v1/betaTesters/{id}": {
@@ -16087,7 +16119,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaTesters-get_instance"
+                "operationId": "readBetaTesterInformation",
+                "summary": "Read Beta Tester Information",
+                "description": "Get a specific beta tester."
             },
             "delete": {
                 "tags": [
@@ -16141,7 +16175,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaTesters-delete_instance"
+                "operationId": "deleteBetaTester",
+                "summary": "Delete a Beta Tester",
+                "description": "Remove a beta tester's ability to test all apps."
             },
             "parameters": [
                 {
@@ -22722,7 +22758,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "preReleaseVersions-get_collection"
+                "operationId": "listPrereleaseVersions",
+                "summary": "List Prerelease Versions",
+                "description": "Get a list of prerelease versions for all apps."
             }
         },
         "/v1/preReleaseVersions/{id}": {
@@ -22912,7 +22950,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "preReleaseVersions-get_instance"
+                "operationId": "readPrereleaseVersionInformation",
+                "summary": "Read Prerelease Version Information",
+                "description": "Get information about a specific prerelease version."
             },
             "parameters": [
                 {
@@ -39035,7 +39075,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaAppLocalizations-app-get_to_one_related"
+                "operationId": "readBetaAppLocalizationAppInformation",
+                "summary": "Read the App Information of a Beta App Localization",
+                "description": "Get the app information associated with a specific beta app localization."
             },
             "parameters": [
                 {
@@ -39521,7 +39563,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaGroups-app-get_to_one_related"
+                "operationId": "readBetaGroupAppInformation",
+                "summary": "Read the App Information of a Beta Group",
+                "description": "Get the app information for a specific beta group."
             },
             "parameters": [
                 {
@@ -39595,7 +39639,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaGroups-betaTesters-get_to_many_relationship"
+                "operationId": "getBetaGroupBetaTesterIDs",
+                "summary": "Get All Beta Tester IDs in a Beta Group",
+                "description": "Get a list of the beta tester resource IDs in a specific beta group."
             },
             "post": {
                 "requestBody": {
@@ -39647,7 +39693,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaGroups-betaTesters-create_to_many_relationship"
+                "operationId": "addBetaTestersToBetaGroup",
+                "summary": "Add Beta Testers to a Beta Group",
+                "description": "Add a specific beta tester to one or more beta groups for beta testing."
             },
             "delete": {
                 "requestBody": {
@@ -39699,7 +39747,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaGroups-betaTesters-delete_to_many_relationship"
+                "operationId": "removeBetaTestersFromBetaGroup",
+                "summary": "Remove Beta Testers from a Beta Group",
+                "description": "Remove a specific beta tester from a one or more beta groups, revoking their access to test builds associated with those groups."
             },
             "parameters": [
                 {
@@ -39795,7 +39845,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaGroups-betaTesters-get_to_many_related"
+                "operationId": "listBetaGroupBetaTesters",
+                "summary": "List All Beta Testers in a Beta Group",
+                "description": "Get a list of beta testers contained in a specific beta group."
             },
             "parameters": [
                 {
@@ -39869,7 +39921,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaGroups-builds-get_to_many_relationship"
+                "operationId": "getBetaGroupBuildIDs",
+                "summary": "Get All Build IDs in a Beta Group",
+                "description": "Get a list of build resource IDs in a specific beta group."
             },
             "post": {
                 "requestBody": {
@@ -39921,7 +39975,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaGroups-builds-create_to_many_relationship"
+                "operationId": "addBuildsToBetaGroup",
+                "summary": "Add Builds to a Beta Group",
+                "description": "Associate builds with a beta group to enable the group to test the builds."
             },
             "delete": {
                 "requestBody": {
@@ -39973,7 +40029,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaGroups-builds-delete_to_many_relationship"
+                "operationId": "removeBuildsFromBetaGroup",
+                "summary": "Remove Builds from a Beta Group",
+                "description": "Remove access to test one or more builds from beta testers in a specific beta group."
             },
             "parameters": [
                 {
@@ -40086,7 +40144,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaGroups-builds-get_to_many_related"
+                "operationId": "listBetaGroupBuilds",
+                "summary": "List All Builds for a Beta Group",
+                "description": "Get a list of builds associated with a specific beta group."
             },
             "parameters": [
                 {
@@ -40212,7 +40272,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaLicenseAgreements-app-get_to_one_related"
+                "operationId": "readBetaLicenseAgreementAppInformation",
+                "summary": "Read the App Information of a Beta License Agreement",
+                "description": "Get the app information for a specific beta license agreement."
             },
             "parameters": [
                 {
@@ -40286,7 +40348,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaTesters-apps-get_to_many_relationship"
+                "operationId": "listBetaTesterAppIDs",
+                "summary": "Get All App Resource IDs for a Beta Tester",
+                "description": "Get a list of app resource IDs associated with a beta tester."
             },
             "delete": {
                 "requestBody": {
@@ -40341,7 +40405,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaTesters-apps-delete_to_many_relationship"
+                "operationId": "removeBetaTesterFromApps",
+                "summary": "Remove a Beta Tester’s Access to Apps",
+                "description": "Remove a specific beta tester's access to test any builds of one or more apps."
             },
             "parameters": [
                 {
@@ -40463,7 +40529,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaTesters-apps-get_to_many_related"
+                "operationId": "listBetaTesterApps",
+                "summary": "List All Apps for a Beta Tester",
+                "description": "Get a list of apps that a beta tester can test."
             },
             "parameters": [
                 {
@@ -40537,7 +40605,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaTesters-betaGroups-get_to_many_relationship"
+                "operationId": "getBetaTesterBetaGroupIDs",
+                "summary": "Get All Beta Group IDs of a Beta Tester's Groups",
+                "description": "Get a list of group resource IDs associated with a beta tester."
             },
             "post": {
                 "requestBody": {
@@ -40589,7 +40659,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaTesters-betaGroups-create_to_many_relationship"
+                "operationId": "addBetaTesterToBetaGroup",
+                "summary": "Add a Beta Tester to Beta Groups",
+                "description": "Add one or more beta testers to a specific beta group."
             },
             "delete": {
                 "requestBody": {
@@ -40641,7 +40713,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaTesters-betaGroups-delete_to_many_relationship"
+                "operationId": "removeBetaTesterFromBetaGroup",
+                "summary": "Remove a Beta Tester from Beta Groups",
+                "description": "Remove a specific beta tester from one or more beta groups, revoking their access to test builds associated with those groups."
             },
             "parameters": [
                 {
@@ -40744,7 +40818,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaTesters-betaGroups-get_to_many_related"
+                "operationId": "listBetaTesterBetaGroups",
+                "summary": "List All Beta Groups to Which a Beta Tester Belongs",
+                "description": "Get a list of beta groups that contain a specific beta tester."
             },
             "parameters": [
                 {
@@ -40818,7 +40894,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaTesters-builds-get_to_many_relationship"
+                "operationId": "getBetaTesterAssignedBuildIDs",
+                "summary": "Get All IDs of Builds Individually Assigned to a Beta Tester",
+                "description": "Get a list of build resource IDs individually assigned to a specific beta tester."
             },
             "post": {
                 "requestBody": {
@@ -40870,7 +40948,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaTesters-builds-create_to_many_relationship"
+                "operationId": "assignBetaTesterToBuilds",
+                "summary": "Individually Assign a Beta Tester to Builds",
+                "description": "Individually assign a beta tester to a build."
             },
             "delete": {
                 "requestBody": {
@@ -40922,7 +41002,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaTesters-builds-delete_to_many_relationship"
+                "operationId": "unassignBetaTesterFromBuilds",
+                "summary": "Individually Unassign a Beta Tester from Builds",
+                "description": "Remove an individually assigned beta tester's ability to test a build."
             },
             "parameters": [
                 {
@@ -41035,7 +41117,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaTesters-builds-get_to_many_related"
+                "operationId": "listBetaTesterAssignedBuilds",
+                "summary": "List All Builds Individually Assigned to a Beta Tester",
+                "description": "Get a list of builds individually assigned to a specific beta tester."
             },
             "parameters": [
                 {
@@ -48572,7 +48656,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "preReleaseVersions-app-get_to_one_related"
+                "operationId": "readPrereleaseVersionAppInformation",
+                "summary": "Read the App Information of a Prerelease Version",
+                "description": "Get the app information for a specific prerelease version."
             },
             "parameters": [
                 {
@@ -48699,7 +48785,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "preReleaseVersions-builds-get_to_many_related"
+                "operationId": "listPrereleaseVersionBuilds",
+                "summary": "List All Builds of a Prerelease Version",
+                "description": "Get a list of builds of a specific prerelease version."
             },
             "parameters": [
                 {
