@@ -12027,7 +12027,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaAppClipInvocationLocalizations-create_instance"
+                "operationId": "createBetaAppClipInvocationLocalization",
+                "summary": "Create Localized Metadata for a Beta App Clip Invocation",
+                "description": "Provide localized metadata for an App Clip experience you make available to testers."
             }
         },
         "/v1/betaAppClipInvocationLocalizations/{id}": {
@@ -12080,7 +12082,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaAppClipInvocationLocalizations-delete_instance"
+                "operationId": "deleteBetaAppClipInvocationLocalization",
+                "summary": "Delete a Beta App Clip Invocation Localization",
+                "description": "Delete localized metadata you configured for an App Clip that testers launch using the TestFlight app."
             },
             "patch": {
                 "requestBody": {
@@ -12149,7 +12153,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaAppClipInvocationLocalizations-update_instance"
+                "operationId": "modifyBetaAppClipInvocationLocalization",
+                "summary": "Modify Localized Metadata of an App Clip Invocation for Testers",
+                "description": "Change the metadata for an App Clip you make available to testers in the TestFlight app."
             },
             "parameters": [
                 {
@@ -12222,7 +12228,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaAppClipInvocations-create_instance"
+                "operationId": "createBetaAppClipInvocation",
+                "summary": "Create an App Clip Invocation for Testers in TestFlight",
+                "description": "Configure a new App Clip experience that testers launch using the TestFlight app."
             }
         },
         "/v1/betaAppClipInvocations/{id}": {
@@ -12321,7 +12329,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaAppClipInvocations-get_instance"
+                "operationId": "readBetaAppClipInvocationInformation",
+                "summary": "Read Beta App Clip Invocation Information",
+                "description": "Get a specific App Clip invocation you configure for testing."
             },
             "delete": {
                 "tags": [
@@ -12372,7 +12382,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaAppClipInvocations-delete_instance"
+                "operationId": "deleteBetaAppClipInvocation",
+                "summary": "Delete an App Clip Invocation for Testers in TestFlight",
+                "description": "Delete an App Clip invocation you make available to testers in TestFlight."
             },
             "patch": {
                 "requestBody": {
@@ -12441,7 +12453,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaAppClipInvocations-update_instance"
+                "operationId": "modifyBetaAppClipInvocation",
+                "summary": "Modify an App Clip Invocation You Provide to Testers",
+                "description": "Change an App Clip invocation you make available to testers in the TestFlight app."
             },
             "parameters": [
                 {
@@ -13121,7 +13135,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "betaAppReviewDetails-get_collection"
+                "operationId": "listBetaAppReviewDetails",
+                "summary": "List Beta App Review Details",
+                "description": "Find and list beta app review details for all apps."
             }
         },
         "/v1/betaAppReviewDetails/{id}": {
@@ -13264,7 +13280,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaAppReviewDetails-get_instance"
+                "operationId": "readBetaAppReviewDetailInformation",
+                "summary": "Read Beta App Review Detail Information",
+                "description": "Get beta app review details for a specific app."
             },
             "patch": {
                 "requestBody": {
@@ -13333,7 +13351,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaAppReviewDetails-update_instance"
+                "operationId": "modifyBetaAppReviewDetails",
+                "summary": "Modify a Beta App Review Detail",
+                "description": "Update the details for a specific app's beta app review."
             },
             "parameters": [
                 {
@@ -13507,7 +13527,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "betaAppReviewSubmissions-get_collection"
+                "operationId": "listBetaAppReviewSubmissions",
+                "summary": "List Beta App Review Submissions",
+                "description": "Find and list beta app review submissions for all builds."
             },
             "post": {
                 "requestBody": {
@@ -13566,7 +13588,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaAppReviewSubmissions-create_instance"
+                "operationId": "submitBetaAppReview",
+                "summary": "Submit an App for Beta Review",
+                "description": "Submit an app for beta app review to allow external testing."
             }
         },
         "/v1/betaAppReviewSubmissions/{id}": {
@@ -13694,7 +13718,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaAppReviewSubmissions-get_instance"
+                "operationId": "readBetaAppReviewSubmissionInformation",
+                "summary": "Read Beta App Review Submission Information",
+                "description": "Get a specific beta app review submission."
             },
             "parameters": [
                 {
@@ -13862,7 +13888,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "betaBuildLocalizations-get_collection"
+                "operationId": "listBetaBuildLocalizations",
+                "summary": "List Beta Build Localizations",
+                "description": "Find and list beta build localizations currently associated with apps."
             },
             "post": {
                 "requestBody": {
@@ -13921,7 +13949,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaBuildLocalizations-create_instance"
+                "operationId": "createBetaBuildLocalization",
+                "summary": "Create a Beta Build Localization",
+                "description": "Create localized What’s New text for a build."
             }
         },
         "/v1/betaBuildLocalizations/{id}": {
@@ -14049,7 +14079,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaBuildLocalizations-get_instance"
+                "operationId": "readBetaBuildLocalizationInformation",
+                "summary": "Read Beta Build Localization Information",
+                "description": "Get a specific beta build localization resource."
             },
             "delete": {
                 "tags": [
@@ -14100,7 +14132,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaBuildLocalizations-delete_instance"
+                "operationId": "deleteBetaBuildLocalization",
+                "summary": "Delete a Beta Build Localization",
+                "description": "Delete a specific beta build localization associated with a build."
             },
             "patch": {
                 "requestBody": {
@@ -14169,7 +14203,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "betaBuildLocalizations-update_instance"
+                "operationId": "modifyBetaBuildLocalization",
+                "summary": "Modify a Beta Build Localization",
+                "description": "Update the localized What’s New text for a specific beta build and locale."
             },
             "parameters": [
                 {
@@ -16346,7 +16382,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "buildBetaDetails-get_collection"
+                "operationId": "listBuildBetaDetails",
+                "summary": "List Build Beta Details",
+                "description": "Find and list build beta details for all builds."
             }
         },
         "/v1/buildBetaDetails/{id}": {
@@ -16475,7 +16513,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "buildBetaDetails-get_instance"
+                "operationId": "readBuildBetaDetailInformation",
+                "summary": "Read Build Beta Detail Information",
+                "description": "Get a specific build beta details resource."
             },
             "patch": {
                 "requestBody": {
@@ -16544,7 +16584,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "buildBetaDetails-update_instance"
+                "operationId": "modifyBuildBetaDetails",
+                "summary": "Modify a Build Beta Detail",
+                "description": "Update beta test details for a specific build."
             },
             "parameters": [
                 {
@@ -16617,7 +16659,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "buildBetaNotifications-create_instance"
+                "operationId": "sendBetaBuildNotification",
+                "summary": "Send Notification of an Available Build",
+                "description": "Send a notification to all assigned beta testers that a build is available for testing."
             }
         },
         "/v1/builds": {
@@ -39203,7 +39247,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaAppReviewDetails-app-get_to_one_related"
+                "operationId": "readBetaAppReviewDetailAppInformation",
+                "summary": "Read the App Information of a Beta App Review Detail",
+                "description": "Get the app information for a specific beta app review details resource."
             },
             "parameters": [
                 {
@@ -39320,7 +39366,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaAppReviewSubmissions-build-get_to_one_related"
+                "operationId": "readBetaAppReviewSubmissionBuildInformation",
+                "summary": "Read the Build Information of a Beta App Review Submission",
+                "description": "Get the build information for a specific beta app review submission."
             },
             "parameters": [
                 {
@@ -39437,7 +39485,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "betaBuildLocalizations-build-get_to_one_related"
+                "operationId": "readBetaBuildLocalizationBuildInformation",
+                "summary": "Read the Build Information of a Beta Build Localization",
+                "description": "Get the build information for a specific beta build localization."
             },
             "parameters": [
                 {
@@ -41236,7 +41286,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "buildBetaDetails-build-get_to_one_related"
+                "operationId": "readBuildBetaDetailBuildInformation",
+                "summary": "Read the Build Information of a Build Beta Detail",
+                "description": "Get the build information for a specific build beta details resource."
             },
             "parameters": [
                 {
