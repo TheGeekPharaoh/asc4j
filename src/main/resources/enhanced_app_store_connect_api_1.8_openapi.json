@@ -5318,7 +5318,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appPreOrders-create_instance"
+                "operationId": "createAppPreOrder",
+                "summary": "Create an App Pre-Order",
+                "description": "Turn on pre-order and set the expected app release date."
             }
         },
         "/v1/appPreOrders/{id}": {
@@ -5406,7 +5408,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appPreOrders-get_instance"
+                "operationId": "readAppPreOrderInformation",
+                "summary": "Read App Pre-Order Information",
+                "description": "Get information about your app's pre-order configuration."
             },
             "delete": {
                 "tags": [
@@ -5457,7 +5461,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appPreOrders-delete_instance"
+                "operationId": "deleteAppPreOrder",
+                "summary": "Delete an App Pre-Order",
+                "description": "Cancel a planned app pre-order that has not begun."
             },
             "patch": {
                 "requestBody": {
@@ -5526,7 +5532,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appPreOrders-update_instance"
+                "operationId": "modifyAppPreOrder",
+                "summary": "Modify an App Pre-Order",
+                "description": "Update the release date for your app pre-order."
             },
             "parameters": [
                 {
@@ -6485,7 +6493,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "appPriceTiers-get_collection"
+                "operationId": "listAppPriceTiers",
+                "summary": "List App Price Tiers",
+                "description": "List all app price tiers available in App Store Connect."
             }
         },
         "/v1/appPriceTiers/{id}": {
@@ -6604,7 +6614,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appPriceTiers-get_instance"
+                "operationId": "readAppPriceTier",
+                "summary": "Read App Price Tier Information",
+                "description": "Read available app price tiers."
             },
             "parameters": [
                 {
@@ -6704,7 +6716,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appPrices-get_instance"
+                "operationId": "readAppPriceInformation",
+                "summary": "Read App Price Information",
+                "description": "Read current price and scheduled price changes for an app, including price tier and start date."
             },
             "parameters": [
                 {
@@ -7333,7 +7347,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreReviewAttachments-create_instance"
+                "operationId": "createAppStoreReviewAttachment",
+                "summary": "Create an App Store Review Attachment",
+                "description": "Attach a document for App Review to an App Store version."
             }
         },
         "/v1/appStoreReviewAttachments/{id}": {
@@ -7425,7 +7441,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreReviewAttachments-get_instance"
+                "operationId": "readAppStoreReviewAttachmentInformation",
+                "summary": "Read App Store Review Attachment Information",
+                "description": "Get information about an App Store review attachment and its upload and processing status."
             },
             "delete": {
                 "tags": [
@@ -7476,7 +7494,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreReviewAttachments-delete_instance"
+                "operationId": "deleteAppStoreReviewAttachment",
+                "summary": "Delete an App Store Review Attachment",
+                "description": "Remove an attachment before you send your app to App Review."
             },
             "patch": {
                 "requestBody": {
@@ -7545,7 +7565,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreReviewAttachments-update_instance"
+                "operationId": "commitAppStoreReviewAttachment",
+                "summary": "Commit an App Store Review Attachment",
+                "description": "Commit an app screenshot after uploading it to the App Store."
             },
             "parameters": [
                 {
@@ -7618,7 +7640,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreReviewDetails-create_instance"
+                "operationId": "createAppStoreReviewDetail",
+                "summary": "Create an App Store Review Detail",
+                "description": "Add App Store review details to an App Store version, including contact and demo account information."
             }
         },
         "/v1/appStoreReviewDetails/{id}": {
@@ -7748,7 +7772,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreReviewDetails-get_instance"
+                "operationId": "readAppStoreReviewDetailInformation",
+                "summary": "Read App Store Review Detail Information",
+                "description": "Get App Review details you provided, including contact information, demo account, and notes."
             },
             "patch": {
                 "requestBody": {
@@ -7817,7 +7843,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreReviewDetails-update_instance"
+                "operationId": "modifyAppStoreReviewDetail",
+                "summary": "Modify an App Store Review Detail",
+                "description": "Update the app store review details, including the contact information, demo account, and notes."
             },
             "parameters": [
                 {
@@ -9168,7 +9196,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreVersionPhasedReleases-create_instance"
+                "operationId": "createAppStoreVersionPhasedRelease",
+                "summary": "Create an App Store Version Phased Release",
+                "description": "Enable phased release for an App Store version."
             }
         },
         "/v1/appStoreVersionPhasedReleases/{id}": {
@@ -9221,7 +9251,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreVersionPhasedReleases-delete_instance"
+                "operationId": "deleteAppStoreVersionPhasedRelease",
+                "summary": "Delete an App Store Version Phased Release",
+                "description": "Cancel a planned phased release that has not been started."
             },
             "patch": {
                 "requestBody": {
@@ -9290,7 +9322,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreVersionPhasedReleases-update_instance"
+                "operationId": "modifyAppStoreVersionPhasedRelease",
+                "summary": "Modify an App Store Version Phased Release",
+                "description": "Pause or resume a phased release, or immediately release an app."
             },
             "parameters": [
                 {
@@ -9424,7 +9458,9 @@
                         "description": "Request entity error(s)"
                     }
                 },
-                "operationId": "appStoreVersionReleaseRequests-create_instance"
+                "operationId": "releaseAppStoreApprovedVersion",
+                "summary": "Manually Release an App Store Approved Version of Your App",
+                "description": "Release an approved version of your app to the App Store."
             }
         },
         "/v1/appStoreVersionSubmissions": {
@@ -9486,7 +9522,9 @@
                     }
                 },
                 "deprecated": true,
-                "operationId": "appStoreVersionSubmissions-create_instance"
+                "operationId": "createAppStoreVersionSubmission",
+                "summary": "Create an App Store Version Submission",
+                "description": "Submit an App Store version to App Review."
             }
         },
         "/v1/appStoreVersionSubmissions/{id}": {
@@ -9540,7 +9578,9 @@
                     }
                 },
                 "deprecated": true,
-                "operationId": "appStoreVersionSubmissions-delete_instance"
+                "operationId": "deleteAppStoreVersionSubmission",
+                "summary": "Delete an App Store Version Submission",
+                "description": "Remove a version from App Store review."
             },
             "parameters": [
                 {
@@ -22172,7 +22212,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "financeReports-get_collection"
+                "operationId": "downloadFinanceReports",
+                "summary": "Download Finance Reports",
+                "description": "Download finance reports filtered by your specified criteria."
             }
         },
         "/v1/idfaDeclarations": {
@@ -22234,7 +22276,9 @@
                     }
                 },
                 "deprecated": true,
-                "operationId": "idfaDeclarations-create_instance"
+                "operationId": "createIDFADeclaration",
+                "summary": "Create an IDFA Declaration",
+                "description": "Declare the IDFA usage for an App Store version."
             }
         },
         "/v1/idfaDeclarations/{id}": {
@@ -22288,7 +22332,9 @@
                     }
                 },
                 "deprecated": true,
-                "operationId": "idfaDeclarations-delete_instance"
+                "operationId": "deleteIDFADeclaration",
+                "summary": "Delete an IDFA Declaration",
+                "description": "Delete the IDFA declaration that is associated with a version."
             },
             "patch": {
                 "requestBody": {
@@ -22358,7 +22404,9 @@
                     }
                 },
                 "deprecated": true,
-                "operationId": "idfaDeclarations-update_instance"
+                "operationId": "modifyIDFADeclaration",
+                "summary": "Modify an IDFA Declaration",
+                "description": "Update your declared IDFA usage."
             },
             "parameters": [
                 {
@@ -24707,7 +24755,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "salesReports-get_collection"
+                "operationId": "downloadSalesAndTrendsReports",
+                "summary": "Download Sales and Trends Reports",
+                "description": "Download sales and trends reports filtered by your specified criteria."
             }
         },
         "/v1/scmGitReferences/{id}": {
@@ -25505,7 +25555,9 @@
                         "description": "Forbidden error"
                     }
                 },
-                "operationId": "territories-get_collection"
+                "operationId": "listTerritories",
+                "summary": "List Territories",
+                "description": "List all territories where the App Store operates."
             }
         },
         "/v1/userInvitations": {
@@ -31192,7 +31244,9 @@
                     }
                 },
                 "deprecated": true,
-                "operationId": "appPricePoints-territory-get_to_one_related"
+                "operationId": "appPricePoints-territory-get_to_one_related",
+                "summary": "Read the Territory Information of an App Price Point",
+                "description": "Get the territory in which a specific price point applies."
             },
             "parameters": [
                 {
@@ -31780,7 +31834,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "appStoreReviewDetails-appStoreReviewAttachments-get_to_many_related"
+                "operationId": "listAppStoreReviewDetailReviewAttachments",
+                "summary": "List All Review Attachments for an App Store Review Detail",
+                "description": "List all the App Store review attachments you include with a version when you submit it for App Review."
             },
             "parameters": [
                 {
@@ -43087,7 +43143,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "builds-diagnosticSignatures-get_to_many_related"
+                "operationId": "listBuildDiagnosticSignatures",
+                "summary": "List All Diagnostic Signatures for a Build",
+                "description": "List the aggregate backtrace signatures captured for a specific build."
             },
             "parameters": [
                 {
@@ -43592,7 +43650,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "builds-perfPowerMetrics-get_to_many_related"
+                "operationId": "getBuildPowerAndPerformanceMetrics",
+                "summary": "Get Power and Performance Metrics for a Build",
+                "description": "Get the performance and power metrics data for a specific build."
             },
             "parameters": [
                 {
@@ -47998,7 +48058,9 @@
                         "description": "Not found error"
                     }
                 },
-                "operationId": "diagnosticSignatures-logs-get_to_many_related"
+                "operationId": "downloadDiagnosticSignatureLogs",
+                "summary": "Download Logs for a Diagnostic Signature",
+                "description": "Get the anonymized backtrace logs associated with a specific diagnostic signature."
             },
             "parameters": [
                 {
