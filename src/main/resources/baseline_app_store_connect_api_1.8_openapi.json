@@ -50318,7 +50318,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppCategory"
                                 },
@@ -50350,7 +50350,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppCategory"
                                 },
@@ -50932,7 +50932,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppClip"
                                 },
@@ -50967,7 +50967,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppClip"
                                 },
@@ -51914,7 +51914,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppClipDefaultExperience"
                                 },
@@ -51946,7 +51946,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppClipDefaultExperience"
                                 },
@@ -52272,7 +52272,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppClip"
                                 },
@@ -52310,7 +52310,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppClip"
                                 },
@@ -52948,7 +52948,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -52980,7 +52980,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -53231,7 +53231,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppCustomProductPageVersion"
                                 },
@@ -53266,7 +53266,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppCustomProductPageVersion"
                                 },
@@ -53607,7 +53607,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppCustomProductPage"
                                 },
@@ -53639,7 +53639,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppCustomProductPage"
                                 },
@@ -53876,7 +53876,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -53908,7 +53908,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -54066,7 +54066,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppCustomProductPageLocalizationInlineCreate"
                                 },
@@ -54454,7 +54454,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppEvent"
                                 },
@@ -54489,7 +54489,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppEvent"
                                 },
@@ -56296,7 +56296,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -56349,7 +56349,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -56960,7 +56960,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersionLocalization"
                                 },
@@ -56998,7 +56998,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersionLocalization"
                                 },
@@ -57562,7 +57562,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -57713,7 +57713,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppPriceTier"
                                 },
@@ -57746,7 +57746,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppPriceTier"
                                 },
@@ -58016,7 +58016,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -58048,7 +58048,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -58266,7 +58266,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersionLocalization"
                                 },
@@ -58304,7 +58304,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersionLocalization"
                                 },
@@ -59090,7 +59090,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersion"
                                 },
@@ -59421,7 +59421,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersionExperimentTreatment"
                                 },
@@ -59456,7 +59456,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersionExperimentTreatment"
                                 },
@@ -59685,7 +59685,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersionExperiment"
                                 },
@@ -59717,7 +59717,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersionExperiment"
                                 },
@@ -60002,7 +60002,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersion"
                                 },
@@ -60034,7 +60034,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersion"
                                 },
@@ -60357,7 +60357,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersion"
                                 },
@@ -60392,7 +60392,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersion"
                                 },
@@ -61572,7 +61572,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -61631,7 +61631,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -62780,7 +62780,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/CiProduct"
                                 },
@@ -62863,7 +62863,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/CiProduct"
                                 },
@@ -64635,7 +64635,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -64670,7 +64670,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -65348,7 +65348,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -65383,7 +65383,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -66661,7 +66661,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/PrereleaseVersion"
                                 },
@@ -66720,7 +66720,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/PrereleaseVersion"
                                 },
@@ -67202,7 +67202,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/Profile"
                                 },
@@ -67237,7 +67237,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/Profile"
                                 },
@@ -68054,7 +68054,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/Build"
                                 },
@@ -68098,7 +68098,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/Build"
                                 },
@@ -68646,7 +68646,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -68681,7 +68681,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -69037,7 +69037,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/CiProduct"
                                 },
@@ -69075,7 +69075,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/CiProduct"
                                 },
@@ -69986,7 +69986,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -70304,7 +70304,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/GameCenterEnabledVersion"
                                 },
@@ -70925,7 +70925,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/Build"
                                 },
@@ -70957,7 +70957,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/Build"
                                 },
@@ -71188,7 +71188,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/BundleId"
                                 },
@@ -71223,7 +71223,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/BundleId"
                                 },
@@ -71591,7 +71591,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersion"
                                 },
@@ -71629,7 +71629,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/AppStoreVersion"
                                 },
@@ -72021,7 +72021,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -72056,7 +72056,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/App"
                                 },
@@ -72900,7 +72900,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/ScmProvider"
                                 },
@@ -72932,7 +72932,7 @@
                     "included": {
                         "type": "array",
                         "items": {
-                            "oneOf": [
+                            "Object
                                 {
                                     "$ref": "#/components/schemas/ScmProvider"
                                 },
@@ -74467,7 +74467,7 @@
                                     "type": "string"
                                 },
                                 "source": {
-                                    "oneOf": [
+                                    "Object
                                         {
                                             "$ref": "#/components/schemas/ErrorSourcePointer"
                                         },

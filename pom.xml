@@ -2,9 +2,121 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.odyssi</groupId>
 	<artifactId>asc4j</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.8.0-SNAPSHOT</version>
 
 	<name>ASC4j</name>
-	<description>Apple App Store Connect client for Java</description>
+	<description>Apple App Store Connect API Client for Java
 
+This library implements a JAX-RS Client for accessing Apple's App Store Connect API.  The data model and base service classes were derived from the &lt;a href=&quot;https://github.com/TheGeekPharaoh/AppStoreConnectAPI-openapi&quot;&gt;AppStoreConnectAPI OpenAPI Spec&lt;/a&gt; definition.</description>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+			<comments>A business-friendly OSS license</comments>
+		</license>
+	</licenses>
+
+	<properties>
+		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+		<endorsed.dirs>${project.build.dir}/endorsed</endorsed.dirs>
+
+		<version.jackson>2.9.8</version.jackson>
+		<version.jaxb>2.3.1</version.jaxb>
+		<version.jaxrs>1.0.2.Final</version.jaxrs>
+		<version.junit>5.6.2</version.junit>
+		<version.jwt>3.10.3</version.jwt>
+		<version.resteasy>4.5.3.Final</version.resteasy>
+
+		<version.compiler-plugin>3.8.1</version.compiler-plugin>
+		<version.surefire-plugin>2.22.1</version.surefire-plugin>
+	</properties>
+
+	<dependencies>
+		<!-- Jackson Dependencies -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+			<version>${version.jackson}</version>
+		</dependency>
+
+		<!-- JAX-RS Spec Dependencies -->
+		<dependency>
+			<groupId>org.jboss.spec.javax.ws.rs</groupId>
+			<artifactId>jboss-jaxrs-api_2.1_spec</artifactId>
+			<version>${version.jaxrs}</version>
+		</dependency>
+
+		<!-- Resteasy Client Dependencies -->
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-client</artifactId>
+			<version>${version.resteasy}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jackson2-provider</artifactId>
+			<version>${version.resteasy}</version>
+		</dependency>
+
+		<!-- JAXB Spec Dependencies -->
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>${version.jaxb}</version>
+		</dependency>
+
+		<!-- Misc. Dependencies -->
+		<dependency>
+			<groupId>com.auth0</groupId>
+			<artifactId>java-jwt</artifactId>
+			<version>${version.jwt}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.17.2</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.17.2</version>
+		</dependency>
+
+		<!-- Test Dependencies -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>${version.junit}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${version.compiler-plugin}</version>
+				<configuration>
+					<source>${maven.compiler.source}</source>
+					<target>${maven.compiler.target}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${version.surefire-plugin}</version>
+				<configuration>
+					<systemProperties>
+						<java.util.logging.manager>org.jboss.logmanager.LogManager
+						</java.util.logging.manager>
+					</systemProperties>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

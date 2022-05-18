@@ -1,0 +1,84 @@
+package net.odyssi.asc4j.model;
+
+/**
+ * Gets or Sets CapabilityType
+ */
+public enum CapabilityType {
+
+	ACCESS_WIFI_INFORMATION("ACCESS_WIFI_INFORMATION"),
+
+	APP_GROUPS("APP_GROUPS"),
+
+	APPLE_ID_AUTH("APPLE_ID_AUTH"),
+
+	APPLE_PAY("APPLE_PAY"),
+
+	ASSOCIATED_DOMAINS("ASSOCIATED_DOMAINS"),
+
+	AUTOFILL_CREDENTIAL_PROVIDER("AUTOFILL_CREDENTIAL_PROVIDER"),
+
+	CLASSKIT("CLASSKIT"),
+
+	COREMEDIA_HLS_LOW_LATENCY("COREMEDIA_HLS_LOW_LATENCY"),
+
+	DATA_PROTECTION("DATA_PROTECTION"),
+
+	GAME_CENTER("GAME_CENTER"),
+
+	HEALTHKIT("HEALTHKIT"),
+
+	HOMEKIT("HOMEKIT"),
+
+	HOT_SPOT("HOT_SPOT"),
+
+	ICLOUD("ICLOUD"),
+
+	IN_APP_PURCHASE("IN_APP_PURCHASE"),
+
+	INTER_APP_AUDIO("INTER_APP_AUDIO"),
+
+	MAPS("MAPS"),
+
+	MULTIPATH("MULTIPATH"),
+
+	NETWORK_CUSTOM_PROTOCOL("NETWORK_CUSTOM_PROTOCOL"),
+
+	NETWORK_EXTENSIONS("NETWORK_EXTENSIONS"),
+
+	NFC_TAG_READING("NFC_TAG_READING"),
+
+	PERSONAL_VPN("PERSONAL_VPN"),
+
+	PUSH_NOTIFICATIONS("PUSH_NOTIFICATIONS"),
+
+	SIRIKIT("SIRIKIT"),
+
+	SYSTEM_EXTENSION_INSTALL("SYSTEM_EXTENSION_INSTALL"),
+
+	USER_MANAGEMENT("USER_MANAGEMENT"),
+
+	WALLET("WALLET"),
+
+	WIRELESS_ACCESSORY_CONFIGURATION("WIRELESS_ACCESSORY_CONFIGURATION");
+
+	public static CapabilityType fromValue(String value) {
+		for (CapabilityType b : CapabilityType.values()) {
+			if (b.value.equals(value)) {
+				return b;
+			}
+		}
+		throw new IllegalArgumentException("Unexpected value '" + value + "'");
+	}
+
+	private String value;
+
+	CapabilityType(String value) {
+		this.value = value;
+	}
+
+	@Override
+	public String toString() {
+		return String.valueOf(this.value);
+	}
+
+}
